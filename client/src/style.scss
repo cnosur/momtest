@@ -507,3 +507,34 @@ li {
   padding-right:30px;
 }
 
+@media only screen and (max-width: 1440px) {
+  #ptag{
+    margin-right: 200px;
+  }
+ 
+  #ptag1{
+    margin-right: 200px;
+  }
+ 
+  #react{
+   margin-top: 499px;
+   // margin-right: 10px;
+  }
+  
+  #d3{
+  
+   margin-top: 499px;
+ 
+ }
+ 
+ #nba{
+   margin-top: -69px;
+   margin-left: 105px;
+ 
+ }
+ 
+ #standingsLabels p {
+   margin: 1pt 0pt 3pt 30pt;
+   padding: 14pt 0;
+ }
+ }
