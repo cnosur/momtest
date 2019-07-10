@@ -1,0 +1,509 @@
+/* BODY */
+
+html,body{
+  height:100vh;
+  margin:0;
+  padding:0;
+  font-family: 'Acme', sans-serif;
+  font-size: 2vh; 
+  background-color: #323639;
+  color: white;
+
+}
+
+body {
+  position: relative;
+
+}
+
+.windowBox {
+  max-height: 600px;
+  max-width: 100vh;
+}
+
+/* NAV BAR */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+// RESHUFFLE
+
+  #shuffle {
+    position: relative;
+    width: 90%;
+    max-width: 80px;
+    margin: auto;
+  
+    header {
+      position: relative;
+      padding: 16px;
+      height: 25px;
+      margin: 4px 0;
+  
+  
+    }
+    .list-item {
+      position: relative;
+      margin: 0 6px 12px 6px;
+      height: 2vh; 
+      padding: 16px;
+      list-style-type: none;
+  
+      &:hover button {
+        display: block;
+      }
+  
+      &.list {
+        display: block;
+  
+        button {
+          top: 0;
+          right: 10px;
+          bottom: 0;
+          margin: auto;
+          width: 52px;
+          height: 52px;
+          border: 0;
+          border-radius: 4px;
+          color: white;
+          font-size: 80px;
+        }
+      }
+  
+      &.grid {
+        display: inline-block;
+  
+        button {
+          top: 0;
+          right: 0;
+          font-size: 14px;
+          background: transparent;
+          border: 0;
+        }
+      }
+  
+      button {
+        display: none;
+        position: absolute;
+      }
+    }
+  }
+
+  #standingsHeader {
+    margin: 20px 0 0 200px;
+
+  }
+.button-toggle {
+color: white;
+background: black; 
+font-size: 12pt
+}
+
+.lgBox {
+  position: relative; 
+  float: left;
+}
+
+.dvBox {
+  width: 30vw;
+  position: relative; 
+  float: left; 
+}
+
+.dvContainer {
+  position: absolute;
+  min-width: 100vw;
+}
+
+
+// ConceptMap
+
+svg {
+  font: 12px sans-serif; 
+}
+
+text {
+  pointer-events: none;
+  color:white;
+}
+
+.inner_node rect {
+  pointer-events: all;
+  color: white;
+}
+
+.inner_node rect.highlight {
+  stroke: #315B7E;
+  stroke-width: 2px;
+  color:white;
+}
+
+.outer_node circle {
+  fill: #282F2E;
+  stroke: black;
+  stroke-width: 1.5px;
+  pointer-events: all;
+  color: white; 
+}
+
+.outer_node circle.highlight
+{
+  stroke: #315B7E;
+  stroke-width: 2px;
+  color: white; 
+}
+
+.link {
+  fill: none;
+}
+
+nav.navbar, .navbar-default {
+  background-color: #2892D7 !important;
+}
+
+.navbar-default {
+  background-image: none;
+  border: none;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: white;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: white;
+  background-color: transparent;
+}
+
+// MENU
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:300');
+$bg: #34495e;
+$primarycolor: orange;
+$white: #ecf0f1;
+$font: 'Rubik';
+
+html, body {
+  background: radial-gradient($bg 0, darken($bg, 15%) 100%);
+  min-height: 100vh;
+  font-family: $font, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.description {
+  color: $white;
+  font-size: 22px;
+  line-height: 1.4;
+  padding: 50px 0;
+  text-align: center;
+  width: 100%;
+  
+  a,
+  a:hover,
+  a:active,
+  a:focus,
+  a:visited {
+    color: darken($white, 15%);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    border-bottom: 1px solid lighten($white, 15%);
+  }
+}
+
+.menu-container {
+  box-shadow: 0 0px 50px hsla(0, 0, 0, 0.7);
+  // position: fixed;
+  transform: translate(0);
+  margin: 50px auto;
+  width: 165px;
+}
+
+.menu-item,
+.menu-item--active {
+  height: 60px;
+  width: 100%;
+}
+
+.menu-item {
+  align-items: center;
+  color: $white;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  letter-spacing: 4px;
+  text-align: center;
+  
+  &.active {
+    box-shadow: 0 2px 3px hsla(0, 0, 0, 0.7);
+  }
+
+  &:hover {
+    color:black; 
+    text-decoration: none;
+  }
+ 
+  &:nth-of-type(1) {
+    background: $primarycolor;
+  }
+  &:nth-of-type(2) {
+    background: darken($primarycolor, 5%);
+  }
+  &:nth-of-type(3) {
+    background: darken($primarycolor, 10%);
+  }
+  &:nth-of-type(4) {
+    background: darken($primarycolor, 15%);
+  }
+  &:nth-of-type(5) {
+    background: darken($primarycolor, 20%);
+  }
+  &:nth-of-type(6) {
+    background: darken($primarycolor, 25%);
+  }
+}
+
+.menu-item--active {
+  background: $primarycolor;
+  border-radius: 2px !important;
+  box-shadow: 0 0px 50px hsla(0, 0, 0, 0.5);
+  left: 50%;
+  padding: 0 7px;
+  position: absolute;
+  transform: translateX(-50%);
+  transition: all 300ms;
+  z-index: -1;
+}
+
+#appWrapper {
+  position: relative;
+}
+.appColMain{
+  position: absolute;
+width: 80vw; 
+float: left
+}
+
+.appCol{
+  position: fixed;
+  width: 10vw;
+  float: left; 
+
+
+}
+#momLogo{
+  float: left;
+  position: fixed;
+}
+
+#appMenu {
+  position: fixed;
+  float:right; 
+}
+
+#wins{
+  margin-top: -80px;
+  margin-left: -30px; 
+}
+
+// #option{
+//   position: relative;
+//   margin-left: 350px;
+// }
+
+// teams 
+
+#team{
+  position: relative;
+  margin-left: -500px; 
+  margin-top: -530px; 
+}
+
+#about {
+  margin-top: 50px
+}
+
+#main{
+  max-width: 75%;
+  height: 50%;
+  margin-left: 30px;
+  margin-top: 50px;
+  box-shadow:10px 10px 10px 10px black;  
+}
+
+
+
+li {
+  margin: 5px 0;  
+}
+
+#standingsLabels {
+  float: left; 
+  color: white; 
+  p {
+    margin: 14pt 0pt 14pt 30pt; 
+    padding: 14pt 0; 
+  }
+}
+
+.altColor {
+  color: black
+}
+
+.textBox {
+  
+  margin-bottom: 40px; 
+}
+
+#stb {
+  margin-top: 1400px;
+}
+
+#wtb {
+  margin-top: -100px;
+}
+
+#ttb{
+  margin-top:-550px
+}
+
+#react{
+  height:50px;
+  width:50px;
+  margin-top: 870px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+#d3{
+  height:50px;
+  width:50px;
+  margin-top: 870px;
+  padding: 5px;
+  margin-right: 5px;
+
+}
+
+#nba{
+  height:50px;
+  width:50px;
+  margin-top: 870px;
+  padding: 5px;
+
+}
+
+#ptag{
+  margin-top: 50px;
+  margin-right: 50px;
+  text-align: center;
+  font-size: 50px;
+}
+
+#ptag1{
+  margin-right: 60px;
+  text-align: center;
+  font-size: 25px;
+}
+
+// h4{
+//   text-align: center;
+// }
+
+// h3{
+//   text-align: center;
+//   padding-top: 50px;
+// }
+
+#bubbleteam{
+  padding-right:30px;
+}
+
