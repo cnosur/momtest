@@ -32,7 +32,7 @@ const easternC = [
   { id: 'IND', name: 'Indiana Pacers', conference: 'E', recordW:48, recordL:34, threeW: 6, threeL: 6},
   { id: 'BRK', name: 'Brooklyn Nets', conference: 'E', recordW:42, recordL:40, threeW: 12, threeL: 8},
   { id: 'ORL', name: 'Orlando Magic', conference: 'E', recordW:42, recordL:40, threeW: 5, threeL: 6},
-  { id: 'DET', name: 'Detroit Piston', conference: 'E', recordW:41, recordL:41, threeW: 6, threeL: 9},
+  { id: 'DET', name: 'Detroit Pistons', conference: 'E', recordW:41, recordL:41, threeW: 6, threeL: 9},
   { id: 'CHO', name: 'Charlotte Hornets', conference: 'E', recordW:39, recordL:43, threeW: 6, threeL: 10},
   { id: 'MIA', name: 'Miami Heat', conference: 'E', recordW:39, recordL:43, threeW: 6, threeL: 9},
   { id: 'WAS', name: 'Washington Wizards', conference: 'E', recordW:32, recordL:50, threeW: 5, threeL: 6},
