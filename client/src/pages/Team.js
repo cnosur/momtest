@@ -17,7 +17,7 @@ class Team extends React.Component {
         // .attr("width", width)
         // .attr("height", height)
         .attr("preserveAspectRatio", "xMinYMin meet")
-        .attr("viewBox", "0 100 1750 1400")
+        .attr("viewBox", "100 50 1750 1400")
         .attr("class", "svg-content1")
     // Read data
   

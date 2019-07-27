@@ -35,6 +35,10 @@ Dedicated to Rachel Nichols and ESPN’s The Jump
 <br/>
 <br/>
 <br/>
+Sponsored by: No one
+<br/>
+<br/>
+<br/>
 Created by <a href="http://www.b-ford.dev">Brian Ford</a> and Leonardo Silva - University of Denver Full Stack Web Development Graduates
 </h5>
 
