@@ -168,12 +168,12 @@ class Standings extends Component {
     //   sortingMethod: 'rotate',
     //   easternC
     // });
-
+    
     let invert = 0;
     for (let i = 0; i <this.state.easternC.length; i++) {
-
+      
       invert = (this.state.easternC[i].recordW - this.state.easternC[i].threeW + this.state.easternC[i].threeL )
-      console.log(invert)
+      console.log("invert", invert)
     }
   
 
