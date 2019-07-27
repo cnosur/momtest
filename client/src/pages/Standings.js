@@ -226,25 +226,25 @@ class Standings extends Component {
       <div className={this.state.view}>
         <header id="standingsHeader">
           <div className="abs-right">
-            <Toggle className="toggle" className="picross-btn"
+            <Toggle className="toggle" className="picross-btn" id="ascdec"
               clickHandler={this.toggleSort}
-              text={this.state.order === 'asc' ? 'Ascending' : 'Descending'}
+              text={this.state.order === 'asc' ? 'ASCENDING' : 'DESCENDING'}
               icon={this.state.order === 'asc' ? 'angle-up' : 'angle-down'}
               active={this.state.sortingMethod === 'chronological'}
             />
-            <Toggle className="toggle" className="picross-btn"
+            <Toggle className="toggle" className="picross-btn" id="shuffle"
               clickHandler={this.sortShuffle}
-              text="Shuffle" icon="random"
+              text="SHUFFLE" icon="random"
               active={this.state.sortingMethod === 'shuffle'}
             />
-            <Toggle className="toggle" className="picross-btn"
+            <Toggle className="toggle" className="picross-btn" id="500"
               clickHandler={this.sortFiveHundred}
               text=".500" icon="refresh"
               active={this.state.sortingMethod === 'shuffle'}
             />
-            <Toggle className="toggle" className="picross-btn"
+            <Toggle className="toggle" className="picross-btn" id="invert"
               clickHandler={this.sortInvert}
-              text="Invert" icon="refresh"
+              text="INVERT" icon="refresh"
               active={this.state.sortingMethod === 'shuffle'}
             />
           </div>
