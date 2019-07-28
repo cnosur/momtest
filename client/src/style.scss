@@ -491,6 +491,7 @@ li {
 }
 
 #ptag {
+  font-family: "Bungee", sans-serif;
   margin-top: 50px;
   margin-right: 280px;
   text-align: center;
@@ -498,19 +499,12 @@ li {
 }
 
 #ptag1 {
+  font-family: "Rubik", sans-serif;
   margin-right: 280px;
   text-align: center;
   font-size: 25px;
 }
 
-// h4{
-//   text-align: center;
-// }
-
-// h3{
-//   text-align: center;
-//   padding-top: 50px;
-// }
 
 #bubbleteam {
   padding-right: 30px;
@@ -552,7 +546,7 @@ li {
   -o-transition: 0.3s;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  background: #B47301;
+  background: #E69502;
   border: none;
 }
 
@@ -565,6 +559,7 @@ li {
   -moz-box-shadow: 0 0 0 #1D2832;
   -webkit-box-shadow: 0 0 0 #1D2832;
   box-shadow: 0 0 0 #1D2832;
+  background: #B47301;
 }
 
 .picross-btn:active {
@@ -585,6 +580,14 @@ a:hover {
 color: #006FBB;
 }
 
+h7 {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+}
+
+h4 {
+  font-family: "Bungee", sans-serif;
+}
 @media only screen and (max-width: 1280px) {
   #ptag {
     margin-right: 200px;
