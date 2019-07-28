@@ -157,6 +157,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 #standingsHeader {
   margin: 20px 0 0 200px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  position: fixed;
 
 }
 
@@ -174,6 +179,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .dvContainer {
   position: absolute;
   min-width: 100vw;
+  z-index: 0;
+  margin-top: 40px; 
 }
 
 
@@ -465,20 +472,19 @@ li {
   margin-top: 0px
 }
 
+
 #react {
   height: 50px;
   width: 50px;
   margin-top: 770px;
-  padding: 5px;
-  margin-right: 10px;
+  margin-left: 22px;
 }
 
 #d3 {
   height: 50px;
   width: 50px;
   margin-top: 770px;
-  padding: 5px;
-  margin-right: 5px;
+  margin-left: 5px;
 
 }
 
@@ -486,7 +492,7 @@ li {
   height: 50px;
   width: 50px;
   margin-top: 770px;
-  padding: 5px;
+  margin-left: 5px;
 
 }
 
@@ -495,14 +501,14 @@ li {
   margin-top: 50px;
   margin-right: 280px;
   text-align: center;
-  font-size: 50px;
+  font-size: 35px;
 }
 
 #ptag1 {
   font-family: "Rubik", sans-serif;
   margin-right: 280px;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 
@@ -589,37 +595,44 @@ h4 {
   font-family: "Bungee", sans-serif;
 }
 @media only screen and (max-width: 1280px) {
-  #ptag {
+  #ptag{
     margin-right: 200px;
   }
-
-  #ptag1 {
+ 
+  #ptag1{
     margin-right: 200px;
   }
-
-  #react {
-    margin-top: 700px;
-    // margin-right: 10px;
-  }
-
-  #d3 {
-
-    margin-top: 700px;
+ 
+  #react{
+   margin-top: 650px;
 
   }
+  
+  #d3{
+   margin-top: 650px;
+ 
+ }
+ 
+ #nba{
+   margin-top: -70px;
+   margin-left: 120px; 
+ 
+ }
+ 
+ #standingsLabels p {
+   margin: 8pt 0pt 3pt 30pt;
+   padding: 14pt 0;
+ }
 
-  #nba {
-    margin-top: -69px;
-    margin-left: 105px;
+ #stb{
+   margin-top: 1100px;
+ }
 
-  }
-
-  #standingsLabels p {
-    margin: 12pt 0pt 3pt 30pt;
-    padding: 14pt 0;
-  }
-
-  #stb {
-    margin-top: 1200px;
-  }
+#team {
+  padding: 150px 0 0 200px; 
 }
+
+#wins {
+  margin-left: -110px; 
+}
+ }
