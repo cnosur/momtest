@@ -180,7 +180,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   position: absolute;
   min-width: 100vw;
   z-index: 0;
-  margin-top: 40px; 
+  margin-top: 40px;
 }
 
 
@@ -588,7 +588,7 @@ a {
 }
 
 a:hover {
-color: #006FBB;
+  color: #006FBB;
 }
 
 h7 {
@@ -599,49 +599,104 @@ h7 {
 h4 {
   font-family: "Bungee", sans-serif;
 }
+
 @media only screen and (max-width: 1280px) {
-  #ptag{
+  #ptag {
     margin-right: 200px;
   }
- 
-  #ptag1{
+
+  #ptag1 {
     margin-right: 200px;
   }
- 
-  #react{
-   margin-top: 650px;
+
+  #react {
+    margin-top: 650px;
 
   }
-  
-  #d3{
-   margin-top: 650px;
- 
- }
- 
- #nba{
-   margin-top: -70px;
-   margin-left: 120px; 
- 
- }
- 
- #standingsLabels p {
-   margin: 8pt 0pt 3pt 30pt;
-   padding: 14pt 0;
- }
- 
- #standingsHeader {
-   margin: 15px 0 0 220px; 
- }
 
- #stb{
-   margin-top: 1100px;
- }
+  #d3 {
+    margin-top: 650px;
 
-#team {
-  padding: 150px 0 0 200px; 
+  }
+
+  #nba {
+    margin-top: -70px;
+    margin-left: 120px;
+
+  }
+
+  #standingsLabels p {
+    margin: 8pt 0pt 3pt 30pt;
+    padding: 14pt 0;
+  }
+
+  #standingsHeader {
+    margin: 15px 0 0 220px;
+  }
+
+  #stb {
+    margin-top: 1100px;
+  }
+
+  #d3 {
+    margin-top: 650px;
+
+  }
+
+  #nba {
+    margin-top: -70px;
+    margin-left: 120px;
+
+  }
+
+  #standingsLabels p {
+    margin: 8pt 0pt 3pt 30pt;
+    padding: 14pt 0;
+  }
+
+  #stb {
+    margin-top: 1100px;
+  }
+
+  #team {
+    padding: 150px 0 0 200px;
+  }
+
+  #wins {
+    margin-left: -110px;
+  }
 }
 
-#wins {
-  margin-left: -110px; 
+@media only screen and (max-width: 1280px) {
+  #momLogo {
+    height: 120px;
+    width: 120px;
+  }
+
+  .d-block {
+    height: 200px;
+  }
+
+  #ptag {
+    margin-right: 100px;
+    font-size: 30px;
+  }
+
+  #ptag1 {
+    margin-right: 90px;
+    font-size: 25px;
+  }
+
+  #react {
+    margin-top: 950px;
+  }
+
+  #d3 {
+    margin-top: 950px;
+  }
+
+  #nba {
+    margin-top: 0px;
+    margin-left: 100px;
+  }
 }
- }
