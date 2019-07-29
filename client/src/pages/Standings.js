@@ -297,6 +297,7 @@ class Standings extends Component {
         
       </div>
       <div id= "stb" className="textBox">
+      <br></br>
       <h4>Standings</h4>
       <h7>Re-imagine the standings based on each teams’ record in games decided by 3 points or less and how adjusting the results from those games could affect the end of the season placement.</h7>
       </div>
