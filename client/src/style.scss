@@ -554,6 +554,7 @@ li {
   transition: 0.3s;
   background: #CB8401;
   border: none;
+  margin-top: 12px;
 }
 
 .picross-btn:hover {
@@ -575,7 +576,11 @@ li {
 }
 
 #ad {
-  margin: 60px 1120px 0;
+  margin: -40px 1120px 0;
+}
+
+#unsullied {
+  margin: -100px 1120px 0;
 }
 
 a {

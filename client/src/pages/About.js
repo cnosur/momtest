@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ad from '../assets/presented.png'
+import unsullied from '../assets/unsullied.png'
 
 
 class About extends Component {
@@ -41,6 +42,7 @@ University of Denver Full Stack Web Development Graduates
 </h5>
 
 <img id="ad" src={ad} />
+<img id="unsullied" src={unsullied} />
 
   </div>
       
