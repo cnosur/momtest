@@ -16,7 +16,7 @@ var svg = d3.select("#BC")
     // .attr("width", width + margin.left + margin.right)
     // .attr("height", height + margin.top + margin.bottom)
     .attr("preserveAspectRatio", "xMinYMin meet")
-    .attr("viewBox", "0 0 1000 750")
+    .attr("viewBox", "0 0 1000 840")
     .attr("class", "svg-content")
   .append("g")
     .attr("transform",
