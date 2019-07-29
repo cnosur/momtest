@@ -362,7 +362,7 @@ render(){
     <div id="BC" className="svg-container"></div> 
     <div id= "dttb" className="textBox">
       <h4>Distance / Time</h4>
-<h7>Plots out every shot taken in the last 24 seconds of games decided by three points or less. The X axis represents time left in the last possession. The Y axis represents distance from the basket. Circle size indicates shot outcome. </h7>      </div>
+<h7>Plots out every shot taken in the last 24 seconds of games decided by three points or less during the 2018-2019 season. The X axis represents time left in the last possession of those games and the Y axis represents shot distance from the basket. Circle size indicates shot outcome.  </h7>      </div>
 
     </div>
   )
