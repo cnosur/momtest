@@ -228,14 +228,8 @@ class Standings extends Component {
           <div className="abs-right">
             <Toggle className="toggle" className="picross-btn"
               clickHandler={this.toggleSort}
-              text={this.state.order === 'asc' ? 'Ascending' : 'Descending'}
-              icon={this.state.order === 'asc' ? 'angle-up' : 'angle-down'}
+              text="SEASON" icon="refresh"
               active={this.state.sortingMethod === 'chronological'}
-            />
-            <Toggle className="toggle" className="picross-btn"
-              clickHandler={this.sortShuffle}
-              text="Shuffle" icon="random"
-              active={this.state.sortingMethod === 'shuffle'}
             />
             <Toggle className="toggle" className="picross-btn"
               clickHandler={this.sortFiveHundred}
@@ -244,7 +238,12 @@ class Standings extends Component {
             />
             <Toggle className="toggle" className="picross-btn"
               clickHandler={this.sortInvert}
-              text="Invert" icon="refresh"
+              text="INVERTED" icon="refresh"
+              active={this.state.sortingMethod === 'shuffle'}
+            />
+            <Toggle className="toggle" className="picross-btn"
+              clickHandler={this.sortShuffle}
+              text="RANDOM" icon="random"
               active={this.state.sortingMethod === 'shuffle'}
             />
           </div>
