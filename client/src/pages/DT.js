@@ -117,8 +117,8 @@ d3.csv(Scatter).then (function(data) {
   }
   var moveTooltip = function(d) {
     tooltip
-    .style("left", (d3.mouse(this)[0]+50) + "px")
-    .style("top", (d3.mouse(this)[1]+50) + "px")
+    .style("left", (d3.mouse(this)[0]+0) + "px")
+    .style("top", (d3.mouse(this)[1]+0) + "px")
   }
   var hideTooltip = function(d) {
     tooltip
@@ -361,7 +361,7 @@ render(){
     <div className="windowBox">
     <div id="BC" className="svg-container"></div> 
     <div id= "dttb" className="textBox">
-      <h4>Distance / Time</h4>
+      <h4>DISTANCE / TIME</h4>
 <h7>Plots out every shot taken in the last 24 seconds of games decided by three points or less during the 2018-2019 season. The X axis represents time left in the last possession of those games and the Y axis represents shot distance from the basket. Circle size indicates shot outcome.  </h7>      </div>
 
     </div>

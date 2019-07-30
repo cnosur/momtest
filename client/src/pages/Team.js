@@ -61,8 +61,8 @@ class Team extends React.Component {
       var mousemove = function(d) {
         Tooltip
           .html('<u>' + d.key + '</u>' + "<br>" + d.value + " FG %")
-          .style("left", (d3.mouse(this)[0]+20) + "px")
-          .style("top", (d3.mouse(this)[1]+20) + "px")
+          .style("left", (d3.mouse(this)[0]+0) + "px")
+          .style("top", (d3.mouse(this)[1]+0) + "px")
       }
       var mouseleave = function(d) {
         Tooltip
@@ -153,9 +153,11 @@ class Team extends React.Component {
     return (<>
       <div id="team"></div>
       <div id= "ttb" className="textBox">
-      <h4 id="bubbleteam">Team Bubble Chart</h4>
-<h7>Weighted bubble chart displaying the team Field Goal Percentage based on last shot taken in a game decided by three points or less. Hover over each bubble to see data it represents or click and drag to compare teams. </h7>     
- </div>
+      <h4 id="bubbleteam">TEAM BUBBLE CHART</h4>
+      <h7>Weighted bubble chart displaying the team Field Goal Percentage based on last shot taken in a game decided by</h7> 
+      <br/>
+      <h7>three points or less. Hover over each bubble to see data it represents or click and drag to compare teams. </h7>     
+      </div>
 
       </>
     )
