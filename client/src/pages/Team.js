@@ -61,8 +61,8 @@ class Team extends React.Component {
       var mousemove = function(d) {
         Tooltip
           .html('<u>' + d.key + '</u>' + "<br>" + d.value + " FG %")
-          .style("left", (d3.mouse(this)[0]+20) + "px")
-          .style("top", (d3.mouse(this)[1]+20) + "px")
+          .style("left", (d3.mouse(this)[0]+0) + "px")
+          .style("top", (d3.mouse(this)[1]+0) + "px")
       }
       var mouseleave = function(d) {
         Tooltip

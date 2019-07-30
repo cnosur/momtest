@@ -117,8 +117,8 @@ d3.csv(Scatter).then (function(data) {
   }
   var moveTooltip = function(d) {
     tooltip
-    .style("left", (d3.mouse(this)[0]+50) + "px")
-    .style("top", (d3.mouse(this)[1]+50) + "px")
+    .style("left", (d3.mouse(this)[0]+0) + "px")
+    .style("top", (d3.mouse(this)[1]+0) + "px")
   }
   var hideTooltip = function(d) {
     tooltip
