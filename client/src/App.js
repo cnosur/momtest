@@ -24,8 +24,8 @@ function App() {
 <a href="https://salty-coast-38970.herokuapp.com/"><img id="momLogo" src={momLogo} /></a>
 
 <a target="_blank" href="https://reactjs.org/"><img id="react" src={ReactLogo} /></a>
-<a target="_blank" href="https://d3js.org/"><img id="d3" src={D3} /></a>
 <a target="_blank" href="https://www.nba.com"><img id="nba" src={NBA} /></a>
+<a target="_blank" href="https://d3js.org/"><img id="d3" src={D3} /></a>
 
   </div></Col>
           <Col md="8"> <div className="appColMain">   <Switch>

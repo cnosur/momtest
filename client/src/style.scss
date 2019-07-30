@@ -91,6 +91,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   background: rgba(0, 0, 0, 0.3);
 }
 
+
 // RESHUFFLE
 
 #shuffle {
@@ -501,14 +502,15 @@ li {
   margin-top: 50px;
   margin-right: 280px;
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
+  
 }
 
 #ptag1 {
   font-family: "Rubik", sans-serif;
   margin-right: 280px;
   text-align: center;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 
@@ -609,21 +611,6 @@ h4 {
     margin-right: 200px;
   }
 
-  #react {
-    margin-top: 650px;
-
-  }
-
-  #d3 {
-    margin-top: 650px;
-
-  }
-
-  #nba {
-    margin-top: -70px;
-    margin-left: 120px;
-
-  }
 
   #standingsLabels p {
     margin: 8pt 0pt 3pt 30pt;
@@ -638,14 +625,19 @@ h4 {
     margin-top: 1100px;
   }
 
+  #react {
+    margin-top: 640px;
+
+  }
+
+
   #d3 {
-    margin-top: 650px;
+    margin: -70px 0 0 115px;
 
   }
 
   #nba {
-    margin-top: -70px;
-    margin-left: 120px;
+    margin: 640px 0 0 0; 
 
   }
 
