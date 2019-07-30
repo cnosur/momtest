@@ -300,7 +300,7 @@ function mouseout(d)
       <div id="wins"></div>
       
       <div id= "wtb" className="textBox">
-      <h4>Wins</h4>
+      <h4>WINS</h4>
       <h7 id="text">This visualization graphs each teams potential end of the season win total. Hover on the team name to see all potential wins or hover on the win count to see all teams that could have potentially earned that win total. Visualization also imagines what a conference-less association would look like.</h7>
       </div>
       </div>

@@ -16,8 +16,8 @@ class Main extends Component {
     <Carousel />
   </div>
 
-    <p id="ptag">"It's a Make or Miss League"</p>
-    <p id="ptag1">A Data Visualization Project</p>
+    <p id="ptag">"IT'S A MAKE OR MISS LEAGUE"</p>
+    <p id="ptag1">2018-2019 NBA DATA VISUALIZATION PROJECT</p>
   
       </>
     )

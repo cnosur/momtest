@@ -233,7 +233,7 @@ class Standings extends Component {
             />
             <Toggle className="toggle" className="picross-btn"
               clickHandler={this.sortFiveHundred}
-              text=".500" icon="refresh"
+              text="500" icon="refresh"
               active={this.state.sortingMethod === 'shuffle'}
             />
             <Toggle className="toggle" className="picross-btn"
@@ -297,8 +297,9 @@ class Standings extends Component {
       </div>
       <div id= "stb" className="textBox">
       <br></br>
-      <h4>Standings</h4>
+      <h4>STANDINGS</h4>
       <h7>Re-imagine the standings based on each teams’ end of regular season record in games decided by 3 points or less and how adjusting the results from those games could affect the end of the season placement.</h7> 
+      <br/>
       <br/>
       <h7>SEASON orders the teams by their actual win totals. 500 calculates if all times would have won and lost same amount of these games. INVERT swaps wins with loses. RANDOM gives each team random record.</h7>
       </div>
