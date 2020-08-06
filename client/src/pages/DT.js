@@ -108,7 +108,7 @@ d3.csv(Scatter).then (function(data) {
     
     tooltip
     .transition()
-    .duration(2000)
+    .duration(1000)
     tooltip
     .style("opacity", 1)
     .html("Description: " + d.description)
