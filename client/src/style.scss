@@ -461,10 +461,6 @@ li {
   margin-bottom: 40px;
 }
 
-#stb {
-  margin-top: 1250px;
-}
-
 #wtb {
   margin-top: -100px;
 }
@@ -503,7 +499,7 @@ li {
   margin-right: 280px;
   text-align: center;
   font-size: 30px;
-  
+
 }
 
 #ptag1 {
@@ -637,7 +633,7 @@ h4 {
   }
 
   #nba {
-    margin: 640px 0 0 0; 
+    margin: 640px 0 0 0;
 
   }
 
@@ -656,5 +652,28 @@ h4 {
 
   #wins {
     margin-left: -110px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .carousel-item {
+    display: none !important;
+  }
+
+  li,
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    display: none !important;
+  }
+
+  .menu-item {
+    height: 10px; 
+    font-size: 6px;
+    }
+
+  #momLogo {
+    margin: 0 320px;
+    height: 100px;
+    width: 100px;
   }
 }
