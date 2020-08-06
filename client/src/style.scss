@@ -626,7 +626,6 @@ h4 {
 
   }
 
-
   #d3 {
     margin: -70px 0 0 115px;
 
@@ -653,27 +652,3 @@ h4 {
   #wins {
     margin-left: -110px;
   }
-}
-
-@media only screen and (max-width: 425px) {
-  .carousel-item {
-    display: none !important;
-  }
-
-  li,
-  .carousel-control-next-icon,
-  .carousel-control-prev-icon {
-    display: none !important;
-  }
-
-  .menu-item {
-    height: 10px; 
-    font-size: 6px;
-    }
-
-  #momLogo {
-    margin: 0 320px;
-    height: 100px;
-    width: 100px;
-  }
-}
